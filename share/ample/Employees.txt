@@ -1,0 +1,30 @@
+##
+## Ample Electronics
+## employee record
+##
+
+Seif Megahed (401819)
+	position: Software designer
+	mail: seifmegahed@me.com
+	Tel: ?
+
+Berend Al (405759)
+	position: Chair
+	mail: 405759@student.saxion.nl
+	Tel: 0756425676
+
+Sumit Punjabi (400534)
+	position: Hardware designer
+	mail: sumit_punjabi_123@hotmail.com
+	Tel: 0651002628
+
+Mohammed Al-Musalhi (402566)
+	position: Creative designer
+	mail: kx-007@hotmail.com
+	Tel: 0647879028
+
+Zakariya Al-Rashdi (402532)
+	position: Secretary
+	mail: Aboyahya99@hotmail.com
+	Tel: +31617940277
+
