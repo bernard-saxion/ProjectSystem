@@ -1,49 +1,108 @@
 \chapter{Planning}
 
+\begin{landscape}
 \begin{figure}
 \centering
-\begin{gantt}[xunitlength=0.1cm]{7.5}{133}
+\begin{gantt}[xunitlength=0.1cm]{18.5}{140}
 	\begin{ganttitle}
-		\titleelement{February}{28}
+		\titleelement{February}{20}
 		\titleelement{March}{31}
 		\titleelement{April}{30}
 		\titleelement{May}{31}
-		\titleelement{June}{30}
+		\titleelement{June}{28}
 	\end{ganttitle}
-	\ganttgroup{Project setup}{0}{28}
+	\ganttgroup{Project setup}{0}{35}
+	\ganttmilestone[color=gray]{Client meeting \#1}{28}
+	\ganttmilestone{Project plan}{32}
 	\ganttgroup{System requirements}{28}{14}
-	\ganttgroup{Functional design}{42}{28}
-	\ganttgroup{Technical design}{70}{14}
-	\ganttgroup{Implementation}{84}{35}
-	\ganttgroup{"Testing"}{119}{14}
+	\ganttmilestone[color=gray]{Client meeting \#2}{35}
+	\ganttgroup{Functional design}{35}{42}
+	\ganttmilestone{Analyse report}{56}
+	\ganttmilestone{Presentation design}{75}
+	\ganttgroup{Technical design}{70}{28}
+	\ganttmilestone[color=gray]{Client meeting \#3}{77}
+	\ganttgroup{Implementation}{91}{35}
+	\ganttmilestone[color=gray]{Client meeting \#4}{98}
+	%\ganttmilestone{Unit, Subsystem, and Factory tests}{110}
+	\ganttgroup{"Testing"}{119}{7}
+	\ganttmilestone[color=gray]{Client meeting \#5}{119}
+	\ganttmilestone{Site acceptance test}{124}
+	\ganttmilestone{Final report}{131}
+	\ganttmilestone{Final Presentation}{138}
 	\begin{ganttitle}
-		\titleelement{3.1}{7}
-		\titleelement{3.2}{7}
-		\titleelement{VAK}{7}
-		\titleelement{3.3}{7}
-		\titleelement{3.4}{7}
-		\titleelement{3.5}{7}
-		\titleelement{3.6}{7}
-		\titleelement{3.7}{7}
-		\titleelement{3.8}{7}
-		\titleelement{3.9}{7}
-		\titleelement{3.10}{7}
-		\titleelement{4.1}{7}
-		\titleelement{VAK}{7}
-		\titleelement{4.2}{7}
-		\titleelement{4.3}{7}
-		\titleelement{4.4}{7}
-		\titleelement{4.5}{7}
-		\titleelement{4.6}{7}
-		\titleelement{4.7}{7}
-		\titleelement{4.8}{7}
-	\end{ganttitle}
+		\titleelement{3.1}{7} % monday 09 Feb % delta 0
+		\titleelement{3.2}{7} % monday 16 Feb % delta 7
+		\titleelement{VAK}{7} % ...
+		\titleelement{3.3}{7} % monday 02 Mar % delta 21
+		\titleelement{3.4}{7} % monday 09 Mar % delta 28
+		\titleelement{3.5}{7} % monday 16 Mar % delta 35
+		\titleelement{3.6}{7} % monday 23 Mar % delta 42
+		\titleelement{3.7}{7} % monday 30 Mar % delta 49
+		\titleelement{3.8}{7} % monday 06 Apr % delta 56
+		\titleelement{3.9}{7} % monday 13 Apr % delta 63
+		\titleelement{3.10}{7}% monday 20 Apr % delta 70
+		\titleelement{4.1}{7} % monday 27 Apr % delta 77
+		\titleelement{VAK}{7} % ...
+		\titleelement{4.2}{7} % monday 11 May % delta 91
+		\titleelement{4.3}{7} % monday 18 May % delta 98
+		\titleelement{4.4}{7} % monday 25 May % delta 105
+		\titleelement{4.5}{7} % monday 01 Jun % delta 112
+		\titleelement{4.6}{7} % monday 08 Jun % delta 119
+		\titleelement{4.7}{7} % monday 15 Jun % delta 126
+		\titleelement{4.8}{7} % monday 22 Jun % delta 133
+	\end{ganttitle} 
+\end{gantt}
+\caption{Gantt chart of the project outline}
+\label{fig:ganttoutline}
+\end{figure}
+\end{landscape}
 
+\begin{landscape}
+\begin{figure}
+\centering
+\begin{gantt}[xunitlength=0.1cm]{11.5}{140}
+	\begin{ganttitle}
+		\titleelement{February}{20}
+		\titleelement{March}{31}
+		\titleelement{April}{30}
+		\titleelement{May}{31}
+		\titleelement{June}{28}
+	\end{ganttitle}
 	\ganttbar{Founding company}{1}{3}
-	\ganttgroup{Project plan}{2}{26}
 	\ganttbar{Planning}{2}{7}
+	\ganttbar{Wheatstone simulation}{7}{5}
+	\ganttbar{Analyze original machine}{21}{5}
+	\ganttbar{Temperature measurements}{28}{5}
+	\ganttbar{Functional design}{35}{21}
+	\ganttbar{Technical design}{77}{21}
+	\ganttbar{Implementation}{98}{14}
+	\ganttbar{"Measurement"}{112}{7}
+	\ganttbar{Documentation}{119}{14}
+	\begin{ganttitle}
+		\titleelement{3.1}{7} % monday 09 Feb % delta 0
+		\titleelement{3.2}{7} % monday 16 Feb % delta 7
+		\titleelement{VAK}{7} % ...
+		\titleelement{3.3}{7} % monday 02 Mar % delta 21
+		\titleelement{3.4}{7} % monday 09 Mar % delta 28
+		\titleelement{3.5}{7} % monday 16 Mar % delta 35
+		\titleelement{3.6}{7} % monday 23 Mar % delta 42
+		\titleelement{3.7}{7} % monday 30 Mar % delta 49
+		\titleelement{3.8}{7} % monday 06 Apr % delta 56
+		\titleelement{3.9}{7} % monday 13 Apr % delta 63
+		\titleelement{3.10}{7}% monday 20 Apr % delta 70
+		\titleelement{4.1}{7} % monday 27 Apr % delta 77
+		\titleelement{VAK}{7} % ...
+		\titleelement{4.2}{7} % monday 11 May % delta 91
+		\titleelement{4.3}{7} % monday 18 May % delta 98
+		\titleelement{4.4}{7} % monday 25 May % delta 105
+		\titleelement{4.5}{7} % monday 01 Jun % delta 112
+		\titleelement{4.6}{7} % monday 08 Jun % delta 119
+		\titleelement{4.7}{7} % monday 15 Jun % delta 126
+		\titleelement{4.8}{7} % monday 22 Jun % delta 133
+	\end{ganttitle} 
 \end{gantt}
 \caption{Gantt chart of the project activities}
-\label{fig:gantt}
+\label{fig:ganttactivities}
 \end{figure}
+\end{landscape}
 
